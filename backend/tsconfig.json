@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                  // Modern JS target with async iterator support, etc.
+    "module": "commonjs",                // For Node.js compatibility
+    "outDir": "./dist",                  // Compiled output folder
+    "rootDir": "./src",                  // Source files folder
+    "strict": true,                     // Enable all strict type-checking options
+    "esModuleInterop": true,            // Enable interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,               // Skip type checks of declaration files for faster builds
+    "forceConsistentCasingInFileNames": true, // Ensure file name case consistency
+    "moduleResolution": "node",         // Use Node's module resolution strategy
+    "resolveJsonModule": true,          // Allow importing JSON modules
+    "isolatedModules": true,            // Ensure each file can be transpiled without relying on others
+    "noImplicitAny": true,              // Disallow implicit any types
+    "noUnusedLocals": true,             // Warn about unused locals
+    "noUnusedParameters": true,         // Warn about unused parameters
+    "noFallthroughCasesInSwitch": true,// Catch fall-through cases in switch statements
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "lib": ["ES2022"],                  // Include latest ES2022 standard library features
+    "types": ["node", "express"]        // Include typings for Node and Express
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,77 @@
+# --- Node.js ---
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log
+
+# --- TypeScript ---
+dist/
+build/
+*.tsbuildinfo
+
+# --- Environment Files ---
+.env
+.env.*
+**/.env
+**/.env.*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+**/logs/
+
+# --- Docker ---
+**/docker-data/
+**/pgdata/
+**/minio-data/
+
+# --- VSCode ---
+.vscode/
+.history/
+
+# --- Testing ---
+coverage/
+.nyc_output/
+.jest/
+
+# --- Misc Build/Cache ---
+.cache/
+.next/
+out/
+tmp/
+temp/
+*.bak
+*.swp
+
+# --- FastAPI/Flask ---
+*.sqlite3
+instance/
+*.db
+
+# --- IDEs ---
+.idea/
+*.iml
+
+# --- Other ---
+*.pid
